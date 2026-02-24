@@ -1,5 +1,7 @@
 # Virceli (macOS)
 
+![Virceli Preview](docs/images/virceli-preview.png)
+
 Virceli is a macOS app that makes Claude Code more convenient and fun to use, with a desktop-style TUI workflow plus a live Unity avatar companion.
 
 ## Platform
