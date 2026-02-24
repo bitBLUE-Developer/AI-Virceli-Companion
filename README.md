@@ -35,7 +35,7 @@ Virceli is a macOS app that makes Claude Code more convenient and fun to use, wi
 4. In the app, choose your workspace folder and launch Claude Code.
 
 ## Install Prebuilt App (DMG)
-1. Download the latest `.dmg` from GitHub Releases.
+1. Download the latest `.dmg` from [GitHub Releases](https://github.com/bitBLUE-Developer/AI-Virceli-Companion/releases).
 2. Open the DMG and drag `Virceli.app` to `Applications`.
 3. On first launch (unsigned build), right-click `Virceli.app` and choose `Open`.
 
