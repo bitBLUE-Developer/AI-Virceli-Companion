@@ -53,10 +53,6 @@ Virceli needs Accessibility permission to control Unity panel position/attach be
 Primary embedded runtime:
 - `Resources/UnityPlayer/AvatarUnity.app`
 
-Optional custom asset paths (if you extend locally):
-- `public/assets/avatars`
-- `public/assets/animations`
-
 ## Troubleshooting
 ### `claude` command not found
 - Check CLI path:
