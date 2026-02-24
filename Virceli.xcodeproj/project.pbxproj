@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B59149C6726744E45C57C3 /* UnityPanelFrameProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337955639E153EDA8F1D88DA /* UnityPanelFrameProbe.swift */; };
+		136C44DDE0C3330F6574B38B /* LocalAssetHTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A8E546882BB1B63346079 /* LocalAssetHTTPServer.swift */; };
+		1C53BC12BA1271FD750C35A9 /* ClaudeNativeMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15B0CE70DD2C36B6032608 /* ClaudeNativeMacApp.swift */; };
+		36F0EE9E0ED341E40D4E0C8B /* ShellModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F44ECEE652C5EFDA7B3935 /* ShellModels.swift */; };
+		47988A00E5D755D33068364B /* RootView+Panels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F54B52F9C7EDAB02694DB /* RootView+Panels.swift */; };
+		4AEBD20D57A9A68D254A6ED9 /* UnityRuntimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BDB5582407B56B2D0CA9F /* UnityRuntimeManager.swift */; };
+		64B9021DF3799BB126F9F805 /* TerminalStyleEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F556F22DD648BB71BC7804C /* TerminalStyleEditorSheet.swift */; };
+		68A612BF3AA38D0F1B2C8AEA /* ShellSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403148699A729D7D666E3732 /* ShellSession.swift */; };
+		7B2DB3744BA5A0540E7ED673 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4F99E84CF8BCFD7696656 /* RootView.swift */; };
+		7CF7B7C8BF44BA533E364D3B /* AvatarEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86F1C86689F062EF15FE74 /* AvatarEngine.swift */; };
+		88A1375644387C4EAF1779CD /* TerminalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299A910927A4BA881EF2C6A7 /* TerminalTextView.swift */; };
+		8DEA7B76F4FFD3A1F0679775 /* UnityCompanionPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44896D0BF324A1AAB16121E3 /* UnityCompanionPlaceholderView.swift */; };
+		9013D0B348524910E288E904 /* RuntimeMonitorPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E135FA119F5972257104FC /* RuntimeMonitorPanel.swift */; };
+		9377F8B396C5124518847790 /* AvatarSetupWizardSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0BAC9C363A6CFDFC3438E /* AvatarSetupWizardSheet.swift */; };
+		ADBF194B534D7E34133D91B3 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = D1FAD95D059969E8E0F1B637 /* SwiftTerm */; };
+		D0CA276FED0BBB820C08C0C2 /* AvatarEventBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11911B407426F12AC38D78 /* AvatarEventBridge.swift */; };
+		E6B23A5DD8A6D722BD31D32D /* AvatarCompanionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A415ACB58B34F15AA04CE04 /* AvatarCompanionView.swift */; };
+		E7A1BA472A323784A56B300D /* TUITerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0247DFF6F7B1469304E5A9 /* TUITerminalView.swift */; };
+		EBA10DC5888E6DFB00DF08E9 /* AvatarRuntimeHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C44871A5D941A5AACAAF0 /* AvatarRuntimeHTML.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15A4F99E84CF8BCFD7696656 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1F556F22DD648BB71BC7804C /* TerminalStyleEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalStyleEditorSheet.swift; sourceTree = "<group>"; };
+		2897A559672DD64FFA5A88B8 /* Virceli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Virceli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		299A910927A4BA881EF2C6A7 /* TerminalTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalTextView.swift; sourceTree = "<group>"; };
+		337955639E153EDA8F1D88DA /* UnityPanelFrameProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityPanelFrameProbe.swift; sourceTree = "<group>"; };
+		39E135FA119F5972257104FC /* RuntimeMonitorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeMonitorPanel.swift; sourceTree = "<group>"; };
+		3B0247DFF6F7B1469304E5A9 /* TUITerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUITerminalView.swift; sourceTree = "<group>"; };
+		3C1F54B52F9C7EDAB02694DB /* RootView+Panels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView+Panels.swift"; sourceTree = "<group>"; };
+		403148699A729D7D666E3732 /* ShellSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSession.swift; sourceTree = "<group>"; };
+		44896D0BF324A1AAB16121E3 /* UnityCompanionPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityCompanionPlaceholderView.swift; sourceTree = "<group>"; };
+		6A415ACB58B34F15AA04CE04 /* AvatarCompanionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCompanionView.swift; sourceTree = "<group>"; };
+		6E86F1C86689F062EF15FE74 /* AvatarEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarEngine.swift; sourceTree = "<group>"; };
+		76F0BAC9C363A6CFDFC3438E /* AvatarSetupWizardSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSetupWizardSheet.swift; sourceTree = "<group>"; };
+		82F44ECEE652C5EFDA7B3935 /* ShellModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellModels.swift; sourceTree = "<group>"; };
+		846A8E546882BB1B63346079 /* LocalAssetHTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAssetHTTPServer.swift; sourceTree = "<group>"; };
+		8B2BDB5582407B56B2D0CA9F /* UnityRuntimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityRuntimeManager.swift; sourceTree = "<group>"; };
+		AA11911B407426F12AC38D78 /* AvatarEventBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarEventBridge.swift; sourceTree = "<group>"; };
+		AE15B0CE70DD2C36B6032608 /* ClaudeNativeMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeNativeMacApp.swift; sourceTree = "<group>"; };
+		BC1C44871A5D941A5AACAAF0 /* AvatarRuntimeHTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarRuntimeHTML.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D67B5B641309A64ED368EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBF194B534D7E34133D91B3 /* SwiftTerm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067F5999DC7D82D907FD0732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2897A559672DD64FFA5A88B8 /* Virceli.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ABBF9E842658D43425053B7 = {
+			isa = PBXGroup;
+			children = (
+				6DF2044B79DF7BCE865912EE /* Sources */,
+				067F5999DC7D82D907FD0732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DF2044B79DF7BCE865912EE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6A415ACB58B34F15AA04CE04 /* AvatarCompanionView.swift */,
+				6E86F1C86689F062EF15FE74 /* AvatarEngine.swift */,
+				AA11911B407426F12AC38D78 /* AvatarEventBridge.swift */,
+				BC1C44871A5D941A5AACAAF0 /* AvatarRuntimeHTML.swift */,
+				76F0BAC9C363A6CFDFC3438E /* AvatarSetupWizardSheet.swift */,
+				AE15B0CE70DD2C36B6032608 /* ClaudeNativeMacApp.swift */,
+				846A8E546882BB1B63346079 /* LocalAssetHTTPServer.swift */,
+				15A4F99E84CF8BCFD7696656 /* RootView.swift */,
+				3C1F54B52F9C7EDAB02694DB /* RootView+Panels.swift */,
+				39E135FA119F5972257104FC /* RuntimeMonitorPanel.swift */,
+				82F44ECEE652C5EFDA7B3935 /* ShellModels.swift */,
+				403148699A729D7D666E3732 /* ShellSession.swift */,
+				1F556F22DD648BB71BC7804C /* TerminalStyleEditorSheet.swift */,
+				299A910927A4BA881EF2C6A7 /* TerminalTextView.swift */,
+				3B0247DFF6F7B1469304E5A9 /* TUITerminalView.swift */,
+				44896D0BF324A1AAB16121E3 /* UnityCompanionPlaceholderView.swift */,
+				337955639E153EDA8F1D88DA /* UnityPanelFrameProbe.swift */,
+				8B2BDB5582407B56B2D0CA9F /* UnityRuntimeManager.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD64DBEA52B73E71F0B4E0CC /* Virceli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29038BEB576D622758DB489B /* Build configuration list for PBXNativeTarget "Virceli" */;
+			buildPhases = (
+				6647DEB7A9BEBE10E20ADF96 /* Sources */,
+				9D67B5B641309A64ED368EA0 /* Frameworks */,
+				F059F70FBEE8A86F96429D47 /* Embed Unity Player App */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Virceli;
+			packageProductDependencies = (
+				D1FAD95D059969E8E0F1B637 /* SwiftTerm */,
+			);
+			productName = Virceli;
+			productReference = 2897A559672DD64FFA5A88B8 /* Virceli.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA58815C9CC23284A44CBC58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DD64DBEA52B73E71F0B4E0CC = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE70CD3D74154D863D5493C6 /* Build configuration list for PBXProject "Virceli" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3ABBF9E842658D43425053B7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				89AF8042424AB8004B9D8687 /* XCRemoteSwiftPackageReference "SwiftTerm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD64DBEA52B73E71F0B4E0CC /* Virceli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F059F70FBEE8A86F96429D47 /* Embed Unity Player App */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(PROJECT_DIR)/Resources/UnityPlayer/AvatarUnity.app",
+				"$(PROJECT_DIR)/Resources/AppIcon.icns",
+			);
+			name = "Embed Unity Player App";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/UnityPlayer/AvatarUnity.app",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/AppIcon.icns",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -euo pipefail\nSRC_APP=\"${PROJECT_DIR}/Resources/UnityPlayer/AvatarUnity.app\"\nDST_DIR=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UnityPlayer\"\nDST_APP=\"${DST_DIR}/AvatarUnity.app\"\n\nif [ ! -d \"${SRC_APP}\" ]; then\n  echo \"warning: Unity app not found at ${SRC_APP}\"\n  exit 0\nfi\n\nmkdir -p \"${DST_DIR}\"\nrm -rf \"${DST_APP}\"\ncp -R \"${SRC_APP}\" \"${DST_APP}\"\n\nif [ -n \"${EXPANDED_CODE_SIGN_IDENTITY:-}\" ]; then\n  /usr/bin/codesign --force --deep --sign \"${EXPANDED_CODE_SIGN_IDENTITY}\" \"${DST_APP}\" || true\nelse\n  /usr/bin/codesign --force --deep --sign - \"${DST_APP}\" || true\nfi\n\nICON_SRC=\"${PROJECT_DIR}/Resources/AppIcon.icns\"\nICON_DST=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppIcon.icns\"\nif [ -f \"${ICON_SRC}\" ]; then\n  cp -f \"${ICON_SRC}\" \"${ICON_DST}\"\n  /usr/libexec/PlistBuddy -c \"Set :CFBundleIconFile AppIcon\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\" || \\\n    /usr/libexec/PlistBuddy -c \"Add :CFBundleIconFile string AppIcon\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nfi\n\necho \"Embedded Unity app -> ${DST_APP}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6647DEB7A9BEBE10E20ADF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B23A5DD8A6D722BD31D32D /* AvatarCompanionView.swift in Sources */,
+				7CF7B7C8BF44BA533E364D3B /* AvatarEngine.swift in Sources */,
+				D0CA276FED0BBB820C08C0C2 /* AvatarEventBridge.swift in Sources */,
+				EBA10DC5888E6DFB00DF08E9 /* AvatarRuntimeHTML.swift in Sources */,
+				9377F8B396C5124518847790 /* AvatarSetupWizardSheet.swift in Sources */,
+				1C53BC12BA1271FD750C35A9 /* ClaudeNativeMacApp.swift in Sources */,
+				136C44DDE0C3330F6574B38B /* LocalAssetHTTPServer.swift in Sources */,
+				47988A00E5D755D33068364B /* RootView+Panels.swift in Sources */,
+				7B2DB3744BA5A0540E7ED673 /* RootView.swift in Sources */,
+				9013D0B348524910E288E904 /* RuntimeMonitorPanel.swift in Sources */,
+				36F0EE9E0ED341E40D4E0C8B /* ShellModels.swift in Sources */,
+				68A612BF3AA38D0F1B2C8AEA /* ShellSession.swift in Sources */,
+				E7A1BA472A323784A56B300D /* TUITerminalView.swift in Sources */,
+				64B9021DF3799BB126F9F805 /* TerminalStyleEditorSheet.swift in Sources */,
+				88A1375644387C4EAF1779CD /* TerminalTextView.swift in Sources */,
+				8DEA7B76F4FFD3A1F0679775 /* UnityCompanionPlaceholderView.swift in Sources */,
+				04B59149C6726744E45C57C3 /* UnityPanelFrameProbe.swift in Sources */,
+				4AEBD20D57A9A68D254A6ED9 /* UnityRuntimeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		049A6DF00970359B11A2C6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Virceli;
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virceli.app;
+				PRODUCT_NAME = Virceli;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		22C5ED4DC0A5FDD5CE8FF815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Virceli;
+				INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virceli.app;
+				PRODUCT_NAME = Virceli;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		31C33F26EF0CBEBDF628B6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_MODULE_NAME = ClaudeNativeMac;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		90E4E78047A22A2C5E727F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_MODULE_NAME = ClaudeNativeMac;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29038BEB576D622758DB489B /* Build configuration list for PBXNativeTarget "Virceli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E4E78047A22A2C5E727F3C /* Debug */,
+				31C33F26EF0CBEBDF628B6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE70CD3D74154D863D5493C6 /* Build configuration list for PBXProject "Virceli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C5ED4DC0A5FDD5CE8FF815 /* Debug */,
+				049A6DF00970359B11A2C6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89AF8042424AB8004B9D8687 /* XCRemoteSwiftPackageReference "SwiftTerm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/migueldeicaza/SwiftTerm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1FAD95D059969E8E0F1B637 /* SwiftTerm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89AF8042424AB8004B9D8687 /* XCRemoteSwiftPackageReference "SwiftTerm" */;
+			productName = SwiftTerm;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CA58815C9CC23284A44CBC58 /* Project object */;
+}

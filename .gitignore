@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# SwiftPM / local caches
+.build/
+.swiftpm/
+
+# Xcode user data
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Local runtime/debug artifacts
+.codex-runtime/
+*.log
+
+# Build outputs / packaged releases
+dist/
+*.dmg
+*.pkg
+*.xcarchive
+
+# Timestamped exported app folders from organizer/manual export
+Virceli 20*/
+
+# Unity player apps under resources:
+# keep the canonical embedded runtime app, ignore temporary variants.
+Resources/UnityPlayer/*.app
+!Resources/UnityPlayer/AvatarUnity.app
+
