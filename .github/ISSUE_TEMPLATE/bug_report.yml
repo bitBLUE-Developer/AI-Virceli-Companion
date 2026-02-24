@@ -28,7 +28,7 @@ body:
     id: macos
     attributes:
       label: macOS version
-      description: Example: Tahoe 26.2
+      description: "Example: Tahoe 26.2"
       placeholder: macOS version
     validations:
       required: true
@@ -81,4 +81,3 @@ body:
           required: true
         - label: I checked existing issues before submitting.
           required: true
-
