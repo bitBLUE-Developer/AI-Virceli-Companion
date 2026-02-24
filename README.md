@@ -37,7 +37,10 @@ Virceli is a macOS app that makes Claude Code more convenient and fun to use, wi
 ## Install Prebuilt App (DMG)
 1. Download the latest `.dmg` from [GitHub Releases](https://github.com/bitBLUE-Developer/AI-Virceli-Companion/releases).
 2. Open the DMG and drag `Virceli.app` to `Applications`.
-3. On first launch (unsigned build), right-click `Virceli.app` and choose `Open`.
+3. Launch `Virceli.app` once. You may see a block dialog with options like `Move to Trash` and `Done`.
+4. Open `System Settings > Privacy & Security`.
+5. In the Security section, find the message that macOS blocked Virceli and click `Open Anyway`.
+6. Launch `Virceli.app` again. In the next dialog, click `Open Anyway` to allow execution.
 
 ## Accessibility Permission (Required)
 Virceli needs Accessibility permission to control Unity panel position/attach behavior.
