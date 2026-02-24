@@ -32,3 +32,6 @@ Resources/UnityPlayer/*.app
 
 # Local/public assets (do not publish project asset files)
 public/assets/
+
+# Local helper scripts (not published)
+scripts/
