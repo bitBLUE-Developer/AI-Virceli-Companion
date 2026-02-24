@@ -30,3 +30,5 @@ Virceli 20*/
 Resources/UnityPlayer/*.app
 !Resources/UnityPlayer/AvatarUnity.app
 
+# Local/public assets (do not publish project asset files)
+public/assets/
