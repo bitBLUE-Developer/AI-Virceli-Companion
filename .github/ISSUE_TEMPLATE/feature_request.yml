@@ -1,0 +1,58 @@
+name: Feature request
+description: Suggest an improvement for Virceli
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please describe user value and expected behavior clearly.
+  - type: input
+    id: summary
+    attributes:
+      label: Feature summary
+      placeholder: One-line feature summary
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What user problem does this solve?
+      placeholder: Describe current pain point
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Describe your proposed behavior/UI
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: Any alternative approaches?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Claude Code workflow
+        - Resume/session management
+        - Unity companion
+        - UI/UX
+        - Packaging/release
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked existing issues before submitting.
+          required: true
+
