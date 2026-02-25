@@ -1,3 +1,7 @@
+<a href="https://www.buymeacoffee.com/bitBLUE">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="210" height="50">
+</a>
+
 # Virceli (macOS)
 
 ![Virceli Preview](docs/images/virceli-preview.png)
